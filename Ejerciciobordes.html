@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio con Bordes</title>
+    <style>
+        
+
+        #imagen{
+        box-sizing: border-box;
+        background-color:blue;
+        background-image: url(https://cdn.pixabay.com/photo/2014/09/07/22/34/car-race-438467_960_720.jpg);
+            
+        background-repeat: no-repeat;
+        background-size:100%;
+        padding: 0%;
+
+        border-radius: 5%;
+        border: solid;
+        border-color: orange;
+        border-width: 2px;
+        width: 50vw;
+        height: 50vh;
+
+        margin-left: 25vw;
+        margin-right: 25vw;
+     
+        }
+
+        #imagen:hover{
+          
+            
+          background-origin: content-box;
+          background-size: 100% 100%;
+          padding-left: 20px;
+          padding-top: 20px;
+          padding-right: 20px;
+          padding-bottom: 20px;
+    
+        }
+        
+    
+        #parrafos{
+            background-color:yellow; 
+            padding: 0%;
+            width: 90vw;
+            height: 40vh;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            margin-left: auto;
+            margin-right: auto;
+		    
+        }
+
+        #imagen:active{
+        width: 30vw;
+        margin-right: 35vw;
+        margin-left: 35vw;
+       
+        }
+        
+       
+        p{
+            padding: 0%;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        div:hover p::first-letter{
+            font-weight:bolder;
+        }
+        div:active p:last-of-type{
+            background-color:pink;
+            color: pink;
+        }
+        #parrafos:hover{
+            height: 30vh;
+            column-count:3;
+        }
+
+        body{
+            margin: 0%;
+        }
+
+
+    </style>
+</head>
+
+<body>  
+
+ 
+    <div id="imagen"></div>
+    
+    <div id="parrafos">
+
+        
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad facere autem repellat fugit! Non id quidem eius delectus perspiciatis consequuntur quis obcaecati beatae, explicabo magni dicta culpa unde sunt ab.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores eum quaerat tenetur placeat dignissimos nulla impedit natus odit fugit perferendis tempore consequuntur commodi quae cum, saepe neque adipisci exercitationem. Natus.</p> <br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas aut recusandae quam laudantium alias reprehenderit. Commodi officiis ratione eveniet at. Sunt non eveniet commodi beatae harum, eaque accusantium sed autem?
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit, deserunt porro. Consequuntur fuga recusandae accusantium enim atque. Veniam minima asperiores, iure dolore perferendis dolorum velit similique aliquam? Nam, incidunt optio!</p><br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ratione amet, explicabo, consequatur id et, mollitia repellendus magnam repudiandae debitis at repellat vitae error minima qui quae omnis laboriosam ullam?
+        Lorem ipsum dolor sit amectetur rem perspiciatis. Distinctio recusandae, a aut ipsam in inventore earum laboriosam! Quidem, illo ipsam?</p><br>
+
+       
+
+    </div>
+</div>
+
+</body>
+</html>
